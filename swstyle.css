@@ -1,0 +1,19 @@
+body {
+  background-color: #D6F1F5;
+}
+
+h1 { color: blue;
+     font: 20px helvetica, sans-serif;
+}
+
+h2 { color: red;
+     font: 15px "Times New Roman";
+}
+
+h3 { color: green;
+     font: 10px garamond;
+}
+
+p {
+     font: georgia;
+}
