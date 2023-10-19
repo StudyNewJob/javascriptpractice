@@ -4,7 +4,7 @@ alert('Welcome to my Star Wars Fan Page!')
 
 function getVisitor() {
     let visName = prompt('What is your name?');
-    return userName;
+    return visName;
 }
 
 
