@@ -1,15 +1,32 @@
-function pizzaCheck(like) {
-    if ((like == 'y') ||(like== 'Y') ) {
-        document.write ("You like pizza!");
-    } else if { (like == 'n') || (like == 'N')
-        document.write ("You don't like pizza?");
-    } else { document.write ("Invalid input");
-           }
+'use strict';
+
+alert('Welcome to my Star Wars Fan Page!')
+
+function getVisitor() {
+    let visName = prompt('What is your name?');
+    return userName;
 }
-alert("Hello! Welcome to my Star Wars fan page!");
-var name = prompt("What's your name?");
-document.write("Welcome ", name );
 
-var likeP = prompt("Do you like pizza? Type y or Y for yes or N or n for no.")
 
-pizzaCheck(likeP);
+function hello_vis(name) {
+    while(name == null || name == ""){
+        name = prompt('I need your name buddy');
+    }
+
+    if (name == null || name == ""){
+        document.write('May the force be with you!');
+    } else {
+        document.write('Yer a jedi ' + name);
+    }   
+}
+
+
+
+function ewoks() {
+    let num = prompt('How many ewoks do you want to see (1-3)?');
+
+    for(let i = 0; i < num; i++) {
+        document.write("<img src='fedora.jpeg' alt='fedoras for everyone!' >")
+        document.write(`<p>Hat number ${i + 1}</p>`)
+    }
+}
