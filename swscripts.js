@@ -26,7 +26,7 @@ function ewoks() {
     let num = prompt('How many ewoks do you want to see (1-3)?');
 
     for(let i = 0; i < num; i++) {
-        document.write("<img src='fedora.jpeg' alt='fedoras for everyone!' >")
-        document.write(`<p>Hat number ${i + 1}</p>`)
+        document.write("<img src='Wicket_W_Warrick.png' alt='nunka nunkada nunka' >")
+        document.write(`<p>Ewok number ${i + 1}</p>`)
     }
 }
